@@ -1,0 +1,32 @@
+#Header {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    background-color: rgb(240, 223, 223);
+    border: 5px solid black;
+    border-radius: 5px;
+
+}
+
+body {
+    background-image: url('autumnleaves.jpg');
+
+}
+
+#Youtube {
+    margin-bottom: 3px;
+    text-align: center;
+    
+}
+
+#Images {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#Footer {
+    float: right;
+}
