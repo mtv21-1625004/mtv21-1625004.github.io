@@ -1,0 +1,53 @@
+<DOCTYPE html>
+    <head>
+        <title>Job Application</title>
+    </head>
+
+    <body>
+    <h2>Job Application</h2>
+    <fieldset>
+        <legend>Account:</legend>
+        Email: <input type="text" name="email">
+        Password: <input type= "password" name= "pwd"><br>
+    </fieldset> 
+    
+    <fieldset>
+        <legend>Personal Information:</legend>
+        First name: <input type="text" name="firstname">
+        Last name: <input type="text" name= "lastname"><br>
+        Street Address: <input type="text" name="streetaddress"><br>
+        City: <input type="text" name="city"><br>
+        State:<input type="text" name="state"><br>
+        Zip: <input type="text" name="zip"><br>
+        
+    </fieldset>
+
+
+    <h6>Have you been criminally convicted?</h6>
+    <input type = "radio" name="answer" value="yes">Yes<br>
+    <input type = "radio" name="answer" value="no">No
+
+    <h6> Why do you want to work here?</h6>
+    <textarea name="essay"></textarea>
+    <h6> Why do you think you deserve this job?</h6>
+    <textarea name="essay"> </textarea><br>
+
+    <fieldset>
+        <legend>Availability:</legend>
+        <h6>What type of position are you seeking?</h6>
+        <input type="checkbox">Part time<br> 
+        <input type="checkbox">Full time<br>
+        <input type="checkbox">Seasonal<br>
+        <input type="checkbox">Temporary<br>
+    
+
+        <h6>What location would you perfer to work at?</h6>
+        <select name="Location"> <option value="DowntownSeattle">Downtown Seattle</option> <option value="WestSeattle">West Seattle</option> <option value="Burien">Burien</option> <option value="FederalWay">Federal Way</option> </select><br>
+    </fieldset>
+
+    <input type="submit" value="Submit form">
+    <form name="input" action="html_form_action.asp" method="post"> ... </form>
+
+    </body>
+</html>
+
